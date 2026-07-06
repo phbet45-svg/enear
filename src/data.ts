@@ -117,35 +117,243 @@ export const BENEFITS: Benefit[] = [
 export const PROJECTS: Project[] = [
   {
     id: 'proj1',
-    title: 'Instalação de Multi-Split High Wall',
-    category: 'Climatização Residencial',
+    title: 'Instalação de Split High Wall Inverter',
+    category: 'Instalação',
     location: 'Icaraí, Niterói',
-    image: '/src/assets/images/gallery_installation_1783357399367.jpg',
-    description: 'Instalação completa de um sistema multi-split inverter em apartamento de alto padrão, mantendo a estética da varanda gourmet através de um layout de condensadora otimizado.'
+    image: 'https://i.postimg.cc/Hs1hBFQC/737799692-1536348364829972-2703095286009055160-n.jpg',
+    description: 'Instalação de unidade evaporadora Split Inverter em sala residencial, garantindo perfeito nivelamento, acabamento impecável na fiação e infraestrutura frigorígena embutida.'
   },
   {
     id: 'proj2',
-    title: 'Higienização e Proteção com Spray Pressurizado',
-    category: 'Manutenção & Higiene',
-    location: 'Camboinhas, Niterói',
-    image: '/src/assets/images/gallery_sanitization_1783357409881.jpg',
-    description: 'Higienização profunda bactericida com bolsa coletora em 4 unidades split inverter, devolvendo ar 100% puro para residência familiar e reduzindo o consumo de energia em 15%.'
+    title: 'Higienização Completa com Bolsa Coletora',
+    category: 'Limpeza/higienização',
+    location: 'Santa Rosa, Niterói',
+    image: 'https://i.postimg.cc/yYCbv2FV/737799692-1985488362083412-5056193316881565625-n.jpg',
+    description: 'Serviço de limpeza profunda bactericida na evaporadora utilizando bolsa coletora especial para conter resíduos e água, higienizando turbina e serpentina sem sujar as paredes.'
   },
   {
     id: 'proj3',
-    title: 'Modernização de Quadro Elétrico Geral (QGD)',
-    category: 'Instalação Elétrica',
-    location: 'São Francisco, Niterói',
-    image: '/src/assets/images/gallery_electrical_1783357423058.jpg',
-    description: 'Reforma completa de quadro elétrico residencial antigo, adicionando disjuntores termomagnéticos individuais, DPS contra surtos de raios e IDR de proteção contra choques acidentais.'
+    title: 'Infraestrutura Frigorígena Embutida',
+    category: 'Instalação',
+    location: 'Camboinhas, Niterói',
+    image: 'https://i.postimg.cc/wTYG0nhz/738395957-871633656010291-2524931759976582720-n.jpg',
+    description: 'Preparação de infraestrutura frigorígena em tubulações de cobre embutidas na parede para futura instalação de aparelhos Split, ideal para imóveis em fase de reforma.'
   },
   {
     id: 'proj4',
-    title: 'Climatização e Design Integrado',
-    category: 'Projetos Especiais',
+    title: 'Higienização Preventiva de Evaporadora',
+    category: 'Limpeza/higienização',
     location: 'Piratininga, Niterói',
-    image: '/src/assets/images/enear_hero_bg_1783357383282.jpg',
-    description: 'Integração de unidade split em sala integrada com automação residencial e elétrica dimensionada sob medida, garantindo conforto térmico e acústico com visual minimalista.'
+    image: 'https://i.postimg.cc/QxZy0vpj/738503798-1639050677187809-4639478796039949351-n.jpg',
+    description: 'Limpeza química profunda com produtos biodegradáveis homologados pela ANVISA, eliminando fungos, bactérias e odores desagradáveis da serpentina de alumínio.'
+  },
+  {
+    id: 'proj5',
+    title: 'Instalação de Condensadora em Suporte Reforçado',
+    category: 'Instalação',
+    location: 'São Francisco, Niterói',
+    image: 'https://i.postimg.cc/9FHnJsGV/738667771-1335712755277384-7604226814968046821-n.jpg',
+    description: 'Fixação técnica de unidade condensadora em área externa utilizando suportes robustos e coxins de borracha anti-vibração para reduzir ruídos estruturais.'
+  },
+  {
+    id: 'proj6',
+    title: 'Higienização de Filtros e Painel Frontal',
+    category: 'Limpeza/higienização',
+    location: 'Charitas, Niterói',
+    image: 'https://i.postimg.cc/KvhHJCnG/738712368-4596224970591841-4343096919722007249-n.jpg',
+    description: 'Remoção sistemática e desinfecção de filtros de ar laváveis e painel frontal protetor, restabelecendo o fluxo máximo de vazão e a eficiência energética do equipamento.'
+  },
+  {
+    id: 'proj7',
+    title: 'Limpeza Detalhada de Carenagem',
+    category: 'Limpeza',
+    location: 'Fonseca, Niterói',
+    image: 'https://i.postimg.cc/dtRSXn9g/739126547-968282779500384-4126368344716511570-n.jpg',
+    description: 'Limpeza estética e higienização física da carenagem de plástico ABS, removendo acúmulo de poeira e marcas de uso para restaurar o aspecto de novo do aparelho.'
+  },
+  {
+    id: 'proj8',
+    title: 'Instalação e Conexão de Linha Frigorífica',
+    category: 'Instalação',
+    location: 'Icaraí, Niterói',
+    image: 'https://i.postimg.cc/ncKw5T16/739243113-2202112170627737-7583144652750484873-n.jpg',
+    description: 'Conexão precisa de tubulação flangeada de cobre com isolamento térmico individual e cabo de comando interligando as unidades interna e externa.'
+  },
+  {
+    id: 'proj9',
+    title: 'Higienização Completa de Turbina',
+    category: 'Limpeza/higienização',
+    location: 'Itaipu, Niterói',
+    image: 'https://i.postimg.cc/8Pdn3wb2/739276518-1722034335667916-3954910342730836427-n.jpg',
+    description: 'Desinfecção profunda e remoção de crostas de sujeira acumuladas nas aletas da turbina tangencial, restabelecendo a ventilação silenciosa e saudável.'
+  },
+  {
+    id: 'proj10',
+    title: 'Instalação de Split Hi-Wall em Dormitório',
+    category: 'Instalação',
+    location: 'São Domingos, Niterói',
+    image: 'https://i.postimg.cc/02GH3Zfq/739419967-1746349956408611-3457060351928582779-n.jpg',
+    description: 'Montagem minuciosa de evaporadora em quarto residencial, posicionada de forma a proporcionar climatização uniforme sem incidência direta de vento sobre a cama.'
+  },
+  {
+    id: 'proj11',
+    title: 'Limpeza de Condensadora Externa',
+    category: 'Limpeza',
+    location: 'Pendotiba, Niterói',
+    image: 'https://i.postimg.cc/tCdmfD5b/739508664-1618847772941289-4146273353798474008-n.jpg',
+    description: 'Lavagem pressurizada externa de unidade condensadora para remoção de poeira, folhas e detritos acumulados na serpentina externa, garantindo a troca de calor ideal.'
+  },
+  {
+    id: 'proj12',
+    title: 'Instalação de Multi-Split em Reforma Comercial',
+    category: 'Instalação',
+    location: 'Centro, Niterói',
+    image: 'https://i.postimg.cc/c475jTmZ/739943409-1676599290262734-8291453575939016410-n.jpg',
+    description: 'Passagem coordenada de tubulações frigoríficas e cabos elétricos blindados em teto rebaixado para sistemas multi-split em escritório corporativo.'
+  },
+  {
+    id: 'proj13',
+    title: 'Desinfecção Química de Evaporadora',
+    category: 'Limpeza/higienização',
+    location: 'Santa Rosa, Niterói',
+    image: 'https://i.postimg.cc/PrbFcK4T/739943438-27788750097415121-5096832624510360410-n.jpg',
+    description: 'Aplicação localizada de bactericida de largo espectro em dreno e serpentina, prevenindo proliferação de fungos e eliminando riscos à saúde respiratória.'
+  },
+  {
+    id: 'proj14',
+    title: 'Instalação e Vácuo com Bomba de Vácuo',
+    category: 'Instalação',
+    location: 'Icaraí, Niterói',
+    image: 'https://i.postimg.cc/L6k07vTm/739982973-1051774160758924-2147165984776610642-n.jpg',
+    description: 'Procedimento técnico indispensável de desidratação e vácuo do circuito frigorígeno com bomba de duplo estágio e vacuômetro digital, assegurando a longevidade do compressor.'
+  },
+  {
+    id: 'proj15',
+    title: 'Higienização Termo-Química Completa',
+    category: 'Limpeza/higienização',
+    location: 'Camboinhas, Niterói',
+    image: 'https://i.postimg.cc/VL9HT4Rf/739982973-1914375682582689-994716704521145341-n.jpg',
+    description: 'Limpeza profunda e aplicação de película protetora anti-corrosão na serpentina da evaporadora para aumentar a resistência à maresia local.'
+  },
+  {
+    id: 'proj16',
+    title: 'Instalação de Cassete de 4 Vias',
+    category: 'Instalação',
+    location: 'São Francisco, Niterói',
+    image: 'https://i.postimg.cc/VL9HT4Rs/740059589-2140171526712616-3363421000965485645-n.jpg',
+    description: 'Instalação técnica de modelo Cassete em teto de gesso, distribuindo o fluxo de ar em 360 graus de maneira uniforme e discreta para amplas salas comerciais.'
+  },
+  {
+    id: 'proj17',
+    title: 'Desobstrução e Limpeza do Sistema de Drenagem',
+    category: 'Limpeza',
+    location: 'Itaipu, Niterói',
+    image: 'https://i.postimg.cc/DyQYD5gy/740105678-1250015807086528-1414028853487977799-n.jpg',
+    description: 'Limpeza preventiva de mangueiras de dreno e bandejas coletoras, evitando gotejamentos e vazamentos de água internos indesejados nas salas.'
+  },
+  {
+    id: 'proj18',
+    title: 'Instalação e Comissionamento Elétrico',
+    category: 'Instalação',
+    location: 'Fonseca, Niterói',
+    image: 'https://i.postimg.cc/yYhr5nPN/740259385-1564973235031461-9204531582251014369-n.jpg',
+    description: 'Interligação elétrica segura de comandos e conexões em bornes de evaporadoras seguindo os manuais dos fabricantes e normas da NBR 5410.'
+  },
+  {
+    id: 'proj19',
+    title: 'Higienização de Bandeja de Condensado',
+    category: 'Limpeza/higienização',
+    location: 'Charitas, Niterói',
+    image: 'https://i.postimg.cc/7Y1QcXV6/740846023-26705571485783352-7174206464044890922-n.jpg',
+    description: 'Desinfecção física e lavagem de bandeja coletora interna, local de frequente acúmulo de biofilme e bactérias nocivas à saúde.'
+  },
+  {
+    id: 'proj20',
+    title: 'Instalação e Teste de Pressão de Gás R410A',
+    category: 'Instalação',
+    location: 'Piratininga, Niterói',
+    image: 'https://i.postimg.cc/zXwPMpjv/741019503-2408487726294995-1186388234693884013-n.jpg',
+    description: 'Teste minucioso de estanqueidade e regulagem fina da carga de fluido refrigerante utilizando manifold digital, operando dentro das pressões ideais de fábrica.'
+  },
+  {
+    id: 'proj21',
+    title: 'Higienização Preventiva de Ar de Janela',
+    category: 'Limpeza/higienização',
+    location: 'São Domingos, Niterói',
+    image: 'https://i.postimg.cc/ZKPDgjc0/741275182-1001505886188049-8111892645164125814-n.jpg',
+    description: 'Higienização física e química completa de aparelho de ar-condicionado convencional de gaveta (janela) para remoção integral de fungos e ácaros.'
+  },
+  {
+    id: 'proj22',
+    title: 'Instalação Completa de Unidade Externa',
+    category: 'Instalação',
+    location: 'Camboinhas, Niterói',
+    image: 'https://i.postimg.cc/MK0r4tDn/741481019-942406821907077-7848522705418505638-n.jpg',
+    description: 'Instalação final de condensadora vertical em varanda técnica, obedecendo espaçamentos necessários recomendados pelo fabricante para perfeita exaustão do ar quente.'
+  },
+  {
+    id: 'proj23',
+    title: 'Higienização de Ar Condicionado High Wall',
+    category: 'Limpeza/higienização',
+    location: 'Icaraí, Niterói',
+    image: 'https://i.postimg.cc/tgg6yCGS/a.jpg',
+    description: 'Higienização interna preventiva contra micro-organismos nocivos, garantindo a qualidade do ar em conformidade com as recomendações de saúde.'
+  },
+  {
+    id: 'proj24',
+    title: 'Instalação de Unidade Inverter de Alta Eficiência',
+    category: 'Instalação',
+    location: 'São Francisco, Niterói',
+    image: 'https://i.postimg.cc/DzzGFy3N/b.jpg',
+    description: 'Montagem e conexão de evaporadora Split Inverter de alto desempenho energético, com teste de estanqueidade integrado.'
+  },
+  {
+    id: 'proj25',
+    title: 'Limpeza de Filtros e Turbina Tangencial',
+    category: 'Limpeza',
+    location: 'Santa Rosa, Niterói',
+    image: 'https://i.postimg.cc/DzzGFy3Y/c.jpg',
+    description: 'Remoção de sujidade incrustada na turbina e filtros de ar de evaporadora residencial, devolvendo excelente fluxo de vento.'
+  },
+  {
+    id: 'proj26',
+    title: 'Instalação Técnica de Condensadora de Cobre',
+    category: 'Instalação',
+    location: 'Piratininga, Niterói',
+    image: 'https://i.postimg.cc/CKK8YLpX/d.jpg',
+    description: 'Posicionamento e conexões de tubulação de cobre isolada em condensadora externa de ar-condicionado, com perfeito acabamento.'
+  },
+  {
+    id: 'proj27',
+    title: 'Manutenção e Higienização Química Antibacteriana',
+    category: 'Limpeza/higienização',
+    location: 'Camboinhas, Niterói',
+    image: 'https://i.postimg.cc/wBBNHTYG/e.jpg',
+    description: 'Desinfecção química profunda das serpentinas com eliminadores bactericidas biodegradáveis que garantem o ar livre de fungos e mofo.'
+  },
+  {
+    id: 'proj28',
+    title: 'Limpeza e Conservação da Unidade Externa',
+    category: 'Limpeza',
+    location: 'Fonseca, Niterói',
+    image: 'https://i.postimg.cc/W44ZjbPv/f.jpg',
+    description: 'Remoção física de poeira e oxidação nas aletas trocadoras de calor do bloco de condensação, melhorando a capacidade térmica.'
+  },
+  {
+    id: 'proj29',
+    title: 'Instalação de Sistema Multi-Split Modular',
+    category: 'Instalação',
+    location: 'Jardim Icaraí, Niterói',
+    image: 'https://i.postimg.cc/KYYTFvyb/g.jpg',
+    description: 'Passagem técnica e conexões de linha frigorígena para climatização multi-ambiente com controle independente de temperatura.'
+  },
+  {
+    id: 'proj30',
+    title: 'Higienização Profunda da Caixa de Ar e Dreno',
+    category: 'Limpeza/higienização',
+    location: 'Charitas, Niterói',
+    image: 'https://i.postimg.cc/KYYTFvyX/h.jpg',
+    description: 'Lavagem interna total com aplicação de bactericida e desobstrução da linha de drenagem de condensado, eliminando transbordamentos.'
   }
 ];
 

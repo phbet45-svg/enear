@@ -9,7 +9,7 @@ export default function Gallery() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   // Parse categories for filter tabs
-  const categories = ['Tudo', 'Climatização Residencial', 'Manutenção & Higiene', 'Instalação Elétrica', 'Projetos Especiais'];
+  const categories = ['Tudo', 'Limpeza/higienização', 'Limpeza', 'Instalação'];
 
   const filteredProjects = PROJECTS.filter(
     (p) => filter === 'Tudo' || p.category === filter
@@ -53,7 +53,7 @@ export default function Gallery() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
           <AnimatePresence mode="popLayout">
             {filteredProjects.map((p, i) => (
               <motion.div

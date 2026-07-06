@@ -50,17 +50,17 @@ body.preloader-active {
   background: #14F0C8;
 }
 
-/* Custom glowing shadows */
+/* Custom elegant solid shadows with very subtle color */
 .shadow-neon {
-  box-shadow: 0 0 15px rgba(0, 229, 192, 0.2);
+  box-shadow: 0 3px 8px rgba(0, 229, 192, 0.1);
 }
 
 .shadow-neon-strong {
-  box-shadow: 0 0 25px rgba(0, 229, 192, 0.45);
+  box-shadow: 0 6px 16px rgba(0, 229, 192, 0.2);
 }
 
 .text-neon-glow {
-  text-shadow: 0 0 10px rgba(0, 229, 192, 0.3);
+  text-shadow: none;
 }
 
 /* Smooth scrollbar tweak */

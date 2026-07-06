@@ -106,7 +106,6 @@ export default function Preloader({ onComplete }: PreloaderProps) {
               transition={{ duration: 1 }}
               className="relative mb-8"
             >
-              <div className="absolute inset-[-15px] bg-brand-cyan/15 rounded-full filter blur-[20px] animate-pulse" />
               <Logo size="xl" animated={true} />
             </motion.div>
 
