@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-blue-deep: #070F1E;
+  --color-brand-blue-dark: #0A1428;
+  --color-brand-cyan: #00E5C0;
+  --color-brand-cyan-light: #14F0C8;
+}
+
+/* Custom global styles */
+html {
+  scroll-behavior: smooth;
+  background-color: #0A1428;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide default scrollbar when preloader is active */
+body.preloader-active {
+  overflow: hidden;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070F1E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00E5C0;
+  border-radius: 9999px;
+  border: 2px solid #070F1E;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #14F0C8;
+}
+
+/* Custom glowing shadows */
+.shadow-neon {
+  box-shadow: 0 0 15px rgba(0, 229, 192, 0.2);
+}
+
+.shadow-neon-strong {
+  box-shadow: 0 0 25px rgba(0, 229, 192, 0.45);
+}
+
+.text-neon-glow {
+  text-shadow: 0 0 10px rgba(0, 229, 192, 0.3);
+}
+
+/* Smooth scrollbar tweak */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

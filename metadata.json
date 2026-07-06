@@ -1,0 +1,6 @@
+{
+  "name": "Enear Soluções",
+  "description": "Site moderno, elegante e altamente profissional para a Enear Soluções, especialista em climatização e elétrica em Niterói e região.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
