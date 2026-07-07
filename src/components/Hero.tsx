@@ -67,26 +67,16 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        {/* Brand slogan */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-          className="text-brand-cyan font-sans font-semibold text-sm tracking-[0.25em] uppercase mb-4"
-        >
-          Transformando ar em bem estar
-        </motion.p>
-
         {/* Main Headings */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8, type: 'spring' }}
-          className="font-display font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tighter text-white mb-4 sm:mb-6 leading-[1.1] sm:leading-[0.9] max-w-5xl uppercase"
+          className="font-sans font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight text-white mb-4 sm:mb-6 leading-[1.2] sm:leading-[1.1] max-w-4xl"
         >
           Transformando ar em <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan to-brand-cyan-light drop-shadow-[0_0_15px_rgba(0,229,192,0.25)] text-neon-glow italic font-black">
-            Bem Estar
+            Bem-Estar
           </span>
         </motion.h1>
 

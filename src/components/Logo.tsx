@@ -34,12 +34,12 @@ export default function Logo({ size = 'md', animated = true }: LogoProps) {
       {...animationProps}
     >
       <div className="relative flex items-center justify-center">
-        {/* Official logo with transparent background - clean, solid, professional representation */}
+        {/* Official logo with transparent background - clean, solid, professional representation with boosted brightness for maximum legibility */}
         <img
           src="https://i.postimg.cc/wBJRH6qt/Chat-GPT-Image-6-de-jul-de-2026-21-24-15.png"
           alt="ENEAR Soluções"
           referrerPolicy="no-referrer"
-          className={`${heightClass} w-auto object-contain transition-all duration-300 filter brightness-100 contrast-100`}
+          className={`${heightClass} w-auto object-contain transition-all duration-300 filter brightness-[2.4] contrast-[1.15] saturate-[1.1]`}
         />
       </div>
     </motion.div>

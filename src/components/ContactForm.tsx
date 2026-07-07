@@ -98,8 +98,8 @@ export default function ContactForm() {
                   <div className="font-sans">
                     <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">E-mail Corporativo</h4>
                     <p className="text-sm font-semibold text-white mt-1">
-                      <a href="mailto:contato@enearsolucoes.com.br" className="hover:text-brand-cyan transition-colors">
-                        contato@enearsolucoes.com.br
+                      <a href="mailto:enearsolucoes@gmail.com" className="hover:text-brand-cyan transition-colors">
+                        enearsolucoes@gmail.com
                       </a>
                     </p>
                     <p className="text-xs text-gray-400 mt-0.5">Retorno comercial em até 2 horas</p>

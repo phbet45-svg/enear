@@ -265,11 +265,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'proj23',
-    title: 'Higienização de Ar Condicionado High Wall',
-    category: 'Limpeza/higienização',
+    title: 'Instalação de Cassete de 4 Vias',
+    category: 'Instalação',
     location: 'Icaraí, Niterói',
     image: 'https://i.postimg.cc/tgg6yCGS/a.jpg',
-    description: 'Higienização interna preventiva contra micro-organismos nocivos, garantindo a qualidade do ar em conformidade com as recomendações de saúde.'
+    description: 'Instalação com acabamentos premium de evaporadora k7 4 vias.'
   },
   {
     id: 'proj24',
@@ -281,11 +281,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'proj25',
-    title: 'Limpeza de Filtros e Turbina Tangencial',
-    category: 'Limpeza',
+    title: 'Instalação de Unidades Condensadoras',
+    category: 'Instalação',
     location: 'Santa Rosa, Niterói',
     image: 'https://i.postimg.cc/DzzGFy3Y/c.jpg',
-    description: 'Instalações de unidades conservadoras.'
+    description: 'Instalação de unidades condensadoras de ar-condicionado de alta eficiência, seguindo todos os padrões técnicos e especificações dos fabricantes.'
   },
   {
     id: 'proj26',
@@ -305,11 +305,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'proj28',
-    title: 'Limpeza e Conservação da Unidade Externa',
+    title: 'Limpeza e Conservação de Evaporadora Piso Teto',
     category: 'Limpeza',
     location: 'Fonseca, Niterói',
     image: 'https://i.postimg.cc/W44ZjbPv/f.jpg',
-    description: 'limpeza e conservação da unidade evaporadora - Piso Teto'
+    description: 'Limpeza e conservação da unidade evaporadora - Piso teto'
   },
   {
     id: 'proj29',
@@ -317,15 +317,15 @@ export const PROJECTS: Project[] = [
     category: 'Instalação',
     location: 'Jardim Icaraí, Niterói',
     image: 'https://i.postimg.cc/KYYTFvyb/g.jpg',
-    description: 'instalacao de 16 equipamentos SPLIT inverter em clinica médica , com execucao completa de infraestrutura frigorigena , elétrica e drenagem projeto desenvolvido seguindo rigorosamente as normas tecnicas garantindo alta eficiencia energetica confiabilidade operacional e conforto termico em todos ambientes'
+    description: 'Instalação de 16 equipamentos Split Inverter em clínica médica, com execução completa da infraestrutura frigorígena, elétrica e drenagem. Projeto desenvolvido seguindo rigorosamente as normas técnicas, garantindo alta eficiência energética, confiabilidade operacional e conforto térmico em todos os ambientes.'
   },
   {
     id: 'proj30',
-    title: 'Higienização Profunda da Caixa de Ar e Dreno',
-    category: 'Limpeza/higienização',
+    title: 'Instalação Premium em Canaleta de PVC',
+    category: 'Instalação',
     location: 'Charitas, Niterói',
     image: 'https://i.postimg.cc/KYYTFvyX/h.jpg',
-    description: 'Lavagem interna total com aplicação de bactericida e desobstrução da linha de drenagem de condensado, eliminando transbordamentos.'
+    description: 'Instalação com acabamento Premium em canaleta de PVC.'
   }
 ];
 
