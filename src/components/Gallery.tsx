@@ -137,7 +137,7 @@ export default function Gallery() {
                 animate={{ scale: 1, y: 0 }}
                 exit={{ scale: 0.9, y: 15 }}
                 transition={{ type: 'spring', damping: 25, stiffness: 220 }}
-                className="relative bg-brand-blue-dark border border-brand-cyan/20 w-full max-w-3xl rounded-3xl overflow-hidden shadow-2xl z-10 flex flex-col md:flex-row"
+                className="relative bg-brand-blue-dark border border-brand-cyan/20 w-full max-w-3xl rounded-3xl overflow-hidden shadow-2xl z-10 flex flex-col md:flex-row max-h-[90vh] overflow-y-auto"
               >
                 {/* Left Side: Large Image */}
                 <div className="md:w-1/2 aspect-square md:aspect-auto overflow-hidden relative">

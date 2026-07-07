@@ -4,6 +4,7 @@ import Preloader from './components/Preloader';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Partners from './components/Partners';
 import Services from './components/Services';
 import ExpansionOffers from './components/ExpansionOffers';
 import WhyChooseUs from './components/WhyChooseUs';
@@ -39,6 +40,7 @@ export default function App() {
           <main>
             <Hero />
             <About />
+            <Partners />
             <Services />
             <ExpansionOffers />
             <WhyChooseUs />

@@ -110,7 +110,9 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-10 text-xs text-gray-500 font-mono">
           <div className="text-center sm:text-left">
             <p>© {currentYear} ENEAR SOLUÇÕES. Todos os direitos reservados.</p>
-            <p className="mt-1 text-gray-600">CNPJ: XX.XXX.XXX/0001-XX | Niterói, Rio de Janeiro</p>
+            <p className="mt-1 text-gray-600">
+              CNPJ: 54.814.255/0001-17 | E-mail: enearsolucoes@gmail.com | Niterói, Rio de Janeiro
+            </p>
           </div>
 
           {/* Voltar ao topo button */}

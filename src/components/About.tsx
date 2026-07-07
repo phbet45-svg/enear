@@ -62,7 +62,7 @@ export default function About() {
             {/* Paragraphs */}
             <div className="space-y-6 text-gray-300 font-sans leading-relaxed text-base sm:text-lg">
               <p>
-                Estamos há <strong className="text-white font-semibold">mais de 15 anos no mercado</strong> atuando e construindo uma jornada de confiança e satisfação com todos os nossos clientes, nos empenhando cada dia mais em aprimorar nossas técnicas para gerar o maior bem estar possível para sua casa, empresa e família. Afinal de contas, não é apenas sobre "instalar ar condicionados" — com a <strong className="text-brand-cyan font-semibold">ENEAR</strong>, você se sente realmente no controle!
+                Estamos no mercado <strong className="text-white font-semibold">desde 2022</strong> atuando e construindo uma jornada de confiança e satisfação com todos os nossos clientes, nos empenhando cada dia mais em aprimorar nossas técnicas para gerar o maior bem estar possível para sua casa, empresa e família. Afinal de contas, não é apenas sobre "instalar ar condicionados" — com a <strong className="text-brand-cyan font-semibold">ENEAR</strong>, você se sente realmente no controle!
               </p>
               <p>
                 A <strong className="text-white font-semibold">ENEAR SOLUÇÕES</strong> nasceu com uma missão clara: aliar engenharia de climatização de ponta com um atendimento humanizado, ágil e extremamente limpo. Especializados no clima de <strong className="text-brand-cyan font-medium">Niterói e Região</strong>, entendemos perfeitamente o impacto de um ar-condicionado eficiente no bem-estar de uma família e no faturamento de uma empresa.

@@ -114,7 +114,7 @@ export default function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="absolute top-0 right-0 w-80 h-full bg-brand-blue-dark border-l border-brand-cyan/10 p-6 flex flex-col justify-between shadow-2xl"
+              className="absolute top-0 right-0 w-80 h-full bg-brand-blue-dark border-l border-brand-cyan/10 p-6 flex flex-col justify-between shadow-2xl overflow-y-auto"
             >
               <div className="flex flex-col gap-8 mt-16">
                 <div className="flex items-center justify-between border-b border-brand-cyan/10 pb-4">

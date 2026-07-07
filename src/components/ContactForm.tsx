@@ -312,7 +312,7 @@ export default function ContactForm() {
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 15 }}
               transition={{ type: 'spring', damping: 25, stiffness: 220 }}
-              className="relative bg-brand-blue-dark border-2 border-brand-cyan/25 w-full max-w-md rounded-3xl p-8 shadow-neon-strong z-10 text-center flex flex-col items-center"
+              className="relative bg-brand-blue-dark border-2 border-brand-cyan/25 w-full max-w-md rounded-3xl p-8 shadow-neon-strong z-10 text-center flex flex-col items-center max-h-[90vh] overflow-y-auto"
             >
               {/* Close Button */}
               <button

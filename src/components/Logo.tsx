@@ -36,7 +36,7 @@ export default function Logo({ size = 'md', animated = true }: LogoProps) {
       <div className="relative flex items-center justify-center">
         {/* Official logo with transparent background - clean, solid, professional representation */}
         <img
-          src="https://i.postimg.cc/X7CMXVxv/Chat-GPT-Image-6-de-jul-de-2026-14-33-31.png"
+          src="https://i.postimg.cc/wBJRH6qt/Chat-GPT-Image-6-de-jul-de-2026-21-24-15.png"
           alt="ENEAR Soluções"
           referrerPolicy="no-referrer"
           className={`${heightClass} w-auto object-contain transition-all duration-300 filter brightness-100 contrast-100`}

@@ -50,8 +50,8 @@ export default function Services() {
         </div>
 
         {/* Category Selector Tabs */}
-        <div className="flex justify-center mb-16">
-          <div className="bg-brand-blue-deep/60 border border-white/10 p-1.5 rounded-full flex gap-1">
+        <div className="flex justify-center mb-16 px-2">
+          <div className="bg-brand-blue-deep/60 border border-white/10 p-1.5 rounded-3xl sm:rounded-full flex flex-col sm:flex-row gap-1 w-full max-w-md sm:max-w-max mx-auto">
             {[
               { id: 'todos', label: 'Todos os Serviços' },
               { id: 'climatizacao', label: 'Climatização & AC' },
@@ -63,7 +63,7 @@ export default function Services() {
                   setActiveCategory(tab.id as any);
                   setExpandedService(null); // Reset expanded states on tab change
                 }}
-                className={`font-sans font-semibold text-xs sm:text-sm px-4 sm:px-6 py-2.5 rounded-full transition-all duration-300 ${
+                className={`font-sans font-semibold text-xs sm:text-sm px-3 sm:px-6 py-2 sm:py-2.5 rounded-2xl sm:rounded-full transition-all duration-300 ${
                   activeCategory === tab.id
                     ? 'bg-brand-cyan text-brand-blue-deep shadow-neon font-bold'
                     : 'text-gray-400 hover:text-white hover:bg-white/5'

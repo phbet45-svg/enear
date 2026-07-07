@@ -346,14 +346,14 @@ export default function ExpansionOffers() {
           </div>
 
           {/* TAB SYSTEM FOR BTUS */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10 px-2">
             {/* BTU Selector */}
-            <div className="bg-[#070F1E] border border-white/10 p-1.5 rounded-full flex gap-1">
+            <div className="bg-[#070F1E] border border-white/10 p-1.5 rounded-full flex gap-1 w-full max-w-sm sm:w-auto justify-center">
               {(['09.000', '12.000', '18.000'] as const).map((btu) => (
                 <button
                   key={btu}
                   onClick={() => setSelectedBTUs(btu)}
-                  className={`px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
+                  className={`px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
                     selectedBTUs === btu 
                       ? 'bg-[#00E5C0] text-[#0A1428]' 
                       : 'text-white/60 hover:text-white hover:bg-white/5'
@@ -365,12 +365,12 @@ export default function ExpansionOffers() {
             </div>
 
             {/* Type Filter */}
-            <div className="bg-[#070F1E]/60 border border-white/5 p-1 rounded-full flex gap-1">
+            <div className="bg-[#070F1E]/60 border border-white/5 p-1 rounded-full flex gap-1 w-full max-w-xs sm:w-auto justify-center">
               {(['Tudo', 'Frio', 'Quente e Frio'] as const).map((type) => (
                 <button
                   key={type}
                   onClick={() => setSelectedType(type)}
-                  className={`px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest transition-all duration-300 ${
+                  className={`px-2.5 sm:px-4 py-1.5 rounded-full text-[9px] sm:text-[10px] font-bold uppercase tracking-widest transition-all duration-300 ${
                     selectedType === type 
                       ? 'bg-white/15 text-white' 
                       : 'text-white/40 hover:text-white hover:bg-white/5'

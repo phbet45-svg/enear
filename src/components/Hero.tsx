@@ -22,7 +22,7 @@ export default function Hero() {
         {/* Large, Semi-transparent Animated Brand Logo Background with Neon Glow and Floating Effect */}
         <div className="absolute inset-0 flex items-center justify-center opacity-30 pointer-events-none select-none overflow-hidden">
           <motion.img
-            src="https://i.postimg.cc/X7CMXVxv/Chat-GPT-Image-6-de-jul-de-2026-14-33-31.png"
+            src="https://i.postimg.cc/wBJRH6qt/Chat-GPT-Image-6-de-jul-de-2026-21-24-15.png"
             alt="ENEAR Soluções Background Effect"
             referrerPolicy="no-referrer"
             animate={{
@@ -82,7 +82,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8, type: 'spring' }}
-          className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tighter text-white mb-6 leading-[1.1] sm:leading-[0.9] max-w-5xl uppercase"
+          className="font-display font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tighter text-white mb-4 sm:mb-6 leading-[1.1] sm:leading-[0.9] max-w-5xl uppercase"
         >
           Transformando ar em <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan to-brand-cyan-light drop-shadow-[0_0_15px_rgba(0,229,192,0.25)] text-neon-glow italic font-black">
@@ -95,7 +95,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="font-sans font-medium text-base sm:text-lg md:text-xl text-gray-300 tracking-wide max-w-3xl mb-12"
+          className="font-sans font-medium text-xs sm:text-base md:text-xl text-gray-300 tracking-wide max-w-3xl mb-8 sm:mb-12"
         >
           Venda • Instalação • Manutenção • Higienização • Projetos Técnicos • PMOC
         </motion.p>
@@ -105,7 +105,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="flex flex-col sm:flex-row items-center gap-4 justify-center w-full max-w-md mb-16"
+          className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 justify-center w-full max-w-md mb-8 sm:mb-16"
         >
           <a
             href="#contato"
