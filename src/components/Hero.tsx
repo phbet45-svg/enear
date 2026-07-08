@@ -21,27 +21,113 @@ export default function Hero() {
 
         {/* Large, Semi-transparent Animated Brand Logo Background with Neon Glow and Floating Effect */}
         <div className="absolute inset-0 flex items-center justify-center opacity-30 pointer-events-none select-none overflow-hidden">
-          <motion.img
-            src="https://i.postimg.cc/wBJRH6qt/Chat-GPT-Image-6-de-jul-de-2026-21-24-15.png"
-            alt="ENEAR Soluções Background Effect"
-            referrerPolicy="no-referrer"
+          <motion.div
             animate={{
               y: [0, -25, 0],
               scale: [0.95, 1.05, 0.95],
               rotate: [0, 4, -4, 0],
-              filter: [
-                'drop-shadow(0 0 40px rgba(0,229,192,0.25)) brightness(1)',
-                'drop-shadow(0 0 65px rgba(0,229,192,0.5)) brightness(1.1)',
-                'drop-shadow(0 0 40px rgba(0,229,192,0.25)) brightness(1)'
-              ]
             }}
             transition={{
               duration: 14,
               repeat: Infinity,
               ease: 'easeInOut'
             }}
-            className="w-[85%] max-w-[800px] h-auto object-contain pointer-events-none mix-blend-screen opacity-70"
-          />
+            className="w-[85%] max-w-[800px] aspect-[4/3] pointer-events-none opacity-20 filter drop-shadow-[0_0_50px_rgba(0,203,208,0.4)]"
+          >
+            <svg
+              viewBox="0 0 400 300"
+              className="w-full h-full"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {/* Símbolo / Ícone da Logo */}
+              <g>
+                <path
+                  d="M 218 54 A 42 42 0 0 1 236 96"
+                  stroke="#00cbd0"
+                  strokeWidth="3.5"
+                  strokeLinecap="round"
+                />
+                <path
+                  d="M 224 114 A 42 42 0 0 1 176 114"
+                  stroke="#00cbd0"
+                  strokeWidth="3.5"
+                  strokeLinecap="round"
+                />
+                <path
+                  d="M 164 96 A 42 42 0 0 1 182 54"
+                  stroke="#00cbd0"
+                  strokeWidth="3.5"
+                  strokeLinecap="round"
+                />
+                <circle cx="200" cy="45" r="11" fill="#00cbd0" />
+                <circle cx="239" cy="112" r="11" fill="#00cbd0" />
+                <circle cx="161" cy="112" r="11" fill="#00cbd0" />
+              </g>
+
+              {/* Nome da Marca ENEAR */}
+              <text
+                x="200"
+                y="172"
+                fill="#ffffff"
+                fontFamily="Space Grotesk, Inter, sans-serif"
+                fontWeight="800"
+                fontSize="54"
+                letterSpacing="0.08em"
+                textAnchor="middle"
+              >
+                ENEAR
+              </text>
+
+              {/* Subtitle: — SOLUÇÕES — */}
+              <g>
+                <line
+                  x1="55"
+                  y1="198"
+                  x2="135"
+                  y2="198"
+                  stroke="#00cbd0"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
+                <text
+                  x="200"
+                  y="205"
+                  fill="#00cbd0"
+                  fontFamily="Space Grotesk, Inter, sans-serif"
+                  fontWeight="700"
+                  fontSize="21"
+                  letterSpacing="0.22em"
+                  textAnchor="middle"
+                >
+                  SOLUÇÕES
+                </text>
+                <line
+                  x1="265"
+                  y1="198"
+                  x2="345"
+                  y2="198"
+                  stroke="#00cbd0"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
+              </g>
+
+              {/* Slogan */}
+              <text
+                x="200"
+                y="238"
+                fontFamily="Space Grotesk, Inter, sans-serif"
+                fontWeight="500"
+                fontSize="14.5"
+                letterSpacing="0.02em"
+                textAnchor="middle"
+              >
+                <tspan fill="#e2e8f0">Transformando </tspan>
+                <tspan fill="#00cbd0">ar em bem estar</tspan>
+              </text>
+            </svg>
+          </motion.div>
         </div>
       </div>
 
